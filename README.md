@@ -21,11 +21,12 @@ Docker
 
 #### go_std_rpc.xlsx
 Go语言的标准库中的饿RPC调用库: net/rpc
-性能极好，GOB是流模式，Json也是流模式
+性能极好，代码很精简，GOB是流模式，Json也是流模式；
+据测试大部分性能是gRPC的两倍；
 
 #### go编译器-源码解读.xlsx
-尝试理解go怨言的编译器
-iface页就是关于interface的相关源码，根据其实现来看，部分方法性能可控
+尝试理解go语言的编译器；
+iface页就是关于interface的相关源码，根据其实现来看，部分方法性能可控；
 
 #### Go静态HTTP文件服务器.xlsx
 如其名，很简单的源码解读
@@ -36,5 +37,16 @@ iface页就是关于interface的相关源码，根据其实现来看，部分方
 #### http_package.xlsx
 go语言的http库源码，非常值得推荐
 
-### KCP.xlsx
-KCP
+### gotun2socks.xlsx
+socks5代理转到tuntap设备的项目的源码解读，以下是在下fork的分支。
+https://github.com/lxt1045/gotun2socks
+
+### gRPC.xlsx
+gRPC源码阅读
+
+### RocksDB.xlsx
+RocksDB 源码，只开了个头，还没仔细深入
+
+### v2ray.xlsx
+v2ray 项目的源码阅读笔记。其通过配置组装软件模块的结构挺有意思的，可以学习以下。
+https://github.com/v2ray/v2ray-core
